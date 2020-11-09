@@ -1,10 +1,11 @@
 package sec02_string.EX05_MethodsOfString_1;
 
+/*String 클래스의 주요 메서드1*/
+
 import java.util.Arrays;
 
 public class MethodsOfString_1 {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#1. 문자열길이 (length())
 		String str1 = "Hello Java!";
 		String str2 = "안녕하세요! 반갑습니다.";
@@ -62,8 +63,6 @@ public class MethodsOfString_1 {
 		char[] array4 = str9.toCharArray();
 		System.out.println(Arrays.toString(array3));
 		System.out.println(Arrays.toString(array4));
-		
-				
 	}
 }	
 

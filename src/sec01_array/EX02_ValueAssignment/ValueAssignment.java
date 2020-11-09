@@ -1,8 +1,9 @@
 package sec01_array.EX02_ValueAssignment;
 
+/*1차원 배열의 원소값 대입의 3가지 방법*/
+
 public class ValueAssignment {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#1. 배열의 원소값 대입 방법 1
 		int[] array1 = new int[3];
 		array1[0]=3;
@@ -29,11 +30,9 @@ public class ValueAssignment {
 		int[] array5 = {3, 4, 5};
 		System.out.println(array5[0]+ " "+ array5[1]+ " " + array5[2]);
 		
-//		int[] array6;
-//		array6 = {3, 4, 5}; // 불가능
-//		System.out.println(array6[0]+ " "+ array6[1]+ " " + array6[2]);
-		
-		
+		//int[] array6;
+		//array6 = {3, 4, 5}; // 불가능
+		//System.out.println(array6[0]+ " "+ array6[1]+ " " + array6[2]);
 	}
 }
 

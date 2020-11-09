@@ -1,10 +1,11 @@
 package sec02_string.EX06_MethodsOfString_2;
 
+/*String 클래스의 주요 메서드2*/
+
 import java.util.Arrays;
 
 public class MethodsOfString_2 {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#5. 문자열 수정
 		//@toLowerCase(), toUpperCase()
 		String str1 = "Java Study";
@@ -39,8 +40,7 @@ public class MethodsOfString_2 {
 		//@ equals(), equalsIgnoreCase() : 내용비교
 		System.out.println(str2.equals(str3)); //true
 		System.out.println(str3.equals(str4)); //false
-		System.out.println(str3.equalsIgnoreCase(str4)); //true
-		
+		System.out.println(str3.equalsIgnoreCase(str4)); //true		
 	}
 }
 

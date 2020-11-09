@@ -1,8 +1,9 @@
 package sec02_string.EX04_PlusOperationOfString;
 
+/*문자열의 ‘+’ 연산자(plus operation)*/
+
 public class PlusOperationOfString {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#1. 문자열 + 문자열
 		String str1 = "안녕"+ "하세요"+ "!";
 		System.out.println(str1); //안녕하세요!

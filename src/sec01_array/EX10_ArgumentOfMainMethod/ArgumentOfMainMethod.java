@@ -1,8 +1,9 @@
 package sec01_array.EX10_ArgumentOfMainMethod;
 
+/*main 메서드로의 매개변수 전달*/
+
 public class ArgumentOfMainMethod {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#1. args 배열의 길이 구하기
 		System.out.println(args.length);
 		System.out.println();
@@ -18,7 +19,6 @@ public class ArgumentOfMainMethod {
 		for(String s : args) {
 			System.out.println(s);
 		}
-		System.out.println();
-		
+		System.out.println();		
 	}
 }

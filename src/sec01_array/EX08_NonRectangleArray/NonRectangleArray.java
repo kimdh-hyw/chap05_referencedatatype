@@ -1,5 +1,7 @@
 package sec01_array.EX08_NonRectangleArray;
 
+/*2차원 비정방행렬 배열의 3가지 원소값 대입 방법*/
+
 public class NonRectangleArray {
 	public static void main(String[] args) {
 		
@@ -35,6 +37,7 @@ public class NonRectangleArray {
 		array4 = new int[][] {{1,2},{3,4,5}};
 		System.out.println(array4[0][0]+ " "+array4[0][1]);
 		System.out.println(array4[1][0]+ " "+array4[1][1]+ " "+array4[1][2]);
+		System.out.println();
 		
 		//#3. 비정방행렬의 선언 및 값 대입 방법3
 		int[][] array5 = {{1,2},{3,4,5}};
@@ -44,9 +47,6 @@ public class NonRectangleArray {
 				
 //		int[][] array6;
 //		array6 = {{1,2},{3,4,5}}; //불가능
-//		System.out.println(array6[0][0]+ " "+array6[0][1]);
-//		System.out.println(array6[1][0]+ " "+array6[1][1]+ " "+array6[1][2]);
-		
 	}
 }
 

@@ -1,10 +1,11 @@
 package sec01_array.EX03_InitialValue;
 
+/*스택메모리의 초기값과 참조자료형의 강제초기값*/
+
 import java.util.Arrays;
 
 public class InitialValue {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//#1. stack 메모리값 (강제초기화 되지 않음)
 		int value1;
 //		System.out.println(value1);//오류
@@ -15,6 +16,7 @@ public class InitialValue {
 		System.out.println(value3); //0
 		int[] value4 = null;
 		System.out.println(value4); //null
+		System.out.println();
 		
 		//#2. heap 메모리의 초기값 (강제초기화)
 		//@기본자료형 배열
@@ -42,13 +44,13 @@ public class InitialValue {
 			System.out.print(array4[i]+ " ");
 		}
 		System.out.println();
+		System.out.println();
 		
 		//Tip. 배열을 쉽게 출력할 수 있는 방법
 		System.out.println(Arrays.toString(array1));
 		System.out.println(Arrays.toString(array2));
 		System.out.println(Arrays.toString(array3));
-		System.out.println(Arrays.toString(array4));
-		
+		System.out.println(Arrays.toString(array4));		
 	}
 }
 
