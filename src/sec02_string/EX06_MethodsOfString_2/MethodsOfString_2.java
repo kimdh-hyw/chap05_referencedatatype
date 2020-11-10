@@ -15,7 +15,7 @@ public class MethodsOfString_2 {
 		//@ replace(,)
 		System.out.println(str1.replace("Study", "공부")); //
 		
-		//@ subString(.)
+		//@ substring(.)
 		System.out.println(str1.substring(0,5)); //Java
 		
 		//@ split()
