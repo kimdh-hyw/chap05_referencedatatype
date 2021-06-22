@@ -19,15 +19,15 @@ public class RectangleValueAssignment {
 				
 		int[][] array2;
 		array2 = new int[2][3];
-		array1[0][0]=1;
-		array1[0][1]=2;
-		array1[0][2]=3;
-		array1[1][0]=4;
-		array1[1][1]=5;
-		array1[1][2]=6;
+		array2[0][0]=1;
+		array2[0][1]=2;
+		array2[0][2]=3;
+		array2[1][0]=4;
+		array2[1][1]=5;
+		array2[1][2]=6;
 		
-		System.out.println(array1[0][0]+ " "+array1[0][1]+ " "+array1[0][2]+ " ");
-		System.out.println(array1[1][0]+ " "+array1[1][1]+ " "+array1[1][2]+ " ");
+		System.out.println(array2[0][0]+ " "+array2[0][1]+ " "+array2[0][2]+ " ");
+		System.out.println(array2[1][0]+ " "+array2[1][1]+ " "+array2[1][2]+ " ");
 		System.out.println();
 		
 		//#2. 배열객체의 생성 및 원소값 대입 (방법2)
